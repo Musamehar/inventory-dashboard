@@ -32,6 +32,14 @@ npm install
 npm run dev
 ```
 
+## 🚀 Deploying to GitHub Pages
+
+The GitHub Actions workflow at `../.github/workflows/deploy.yml` builds this app and deploys it to GitHub Pages whenever changes are pushed to `main`.
+
+In the repository on GitHub, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The first deployment will then run automatically after the workflow is pushed, or can be started from the **Actions** tab with **Deploy to GitHub Pages → Run workflow**.
+
+The site URL will be `https://Musamehar.github.io/inventory-dashboard/`.
+
 ---
 
 ## 📖 Task 6 — CSR vs SSR: Architectural Analysis
